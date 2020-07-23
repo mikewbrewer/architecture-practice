@@ -39,6 +39,73 @@ header nav a:hover {
   height: 150px;
 }
 
+.body-container {
+  margin: 20px;
+  background-color: lightgray;
+  padding: 20px;
+}
+
+.body-container h2, .body-container h3 {
+  padding: 10px 0px 10px 0px;
+}
+
+
+.body-container p {
+  font-size: 17px;
+}
+
+.classes-container {
+  margin: 10px;
+  background-color: lightgray;
+  padding: 5px;
+}
+
+.class-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.class-grid article {
+  margin: 5px;
+  background-color: #444444;
+  color: white;
+  padding: 10px;
+}
+
+.instructor-container {
+  display: grid;
+  margin: 20px;
+  background-color: lightgray;
+}
+
+.instructor-container article {
+  display: grid;
+  grid-template-columns: 20% 1fr;
+  margin: 10px;
+  background-color: #444444;
+  color: white;
+  padding: 20px;
+
+}
+
+article div {
+  padding: 10px;
+}
+
+article h3 {
+  padding-bottom: 20px;
+}
+
+article p {
+  font-size: 17px;
+  padding-bottom: 10px;
+  font-weight: 100;
+}
+
+
+
+
+
 footer {
   display: flex;
   align-items: center;
